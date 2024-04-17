@@ -1,14 +1,47 @@
-h1 {
-    position: fixed;
-    font-size: large;
-    font-family:'Courier New', Courier, monospace ;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
 nav {
-    color: blue;
-    font-weight: 100;
-    text-underline-position: below;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
 }
 
 main {
-    position: absolute;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    line-height: 1.6;
 }
