@@ -1,0 +1,14 @@
+h1 {
+    position: fixed;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace ;
+}
+nav {
+    color: blue;
+    font-weight: 100;
+    text-underline-position: below;
+}
+
+main {
+    position: absolute;
+}
